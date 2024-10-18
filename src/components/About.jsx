@@ -1,5 +1,6 @@
 import React from 'react'
 import team from '../assets/team.png'
+import  line from '../assets/line.png'
 
 const About = () => {
   return (
@@ -11,6 +12,15 @@ const About = () => {
           <span className='bg-gradient-to-r from-green-600 to-cyan-500 bg-clip-text text-transparent text-3xl md:text-5xl inline-block'>
             About Us
           </span>
+        </div>
+        <div className='flex items-center justify-center mt-2'>
+            
+        <img 
+  src={line} 
+  alt="Line" 
+  className='w-[150px] h-[3px] md:w-[220px] md:h-[5px] lg:w-[250px] lg:h-[6px]' 
+/>
+
         </div>
 
         {/* Image and Text Section */}

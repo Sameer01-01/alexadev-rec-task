@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Domain from './components/Domain'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     <Navbar/>
     <Home/>
     <About/>
+    <Domain/>
     </>
   )
 }
