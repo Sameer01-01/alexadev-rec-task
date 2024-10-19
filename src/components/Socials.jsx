@@ -13,12 +13,12 @@ const Socials = () => {
       <div className='bg-neutral-800 p-0'> {/* Remove padding to eliminate white space */}
         <div className='flex items-center justify-center mt-0 relative flex-wrap lg:pt-72'>
           <img src={ig} alt="" className='w-[250px] mx-2 md:absolute md:-ml-[1200px]' />
-          <img src={gm} alt="" className='w-[300px] mx-2 md:absolute md:-ml-[900px]' />
-          <img src={ln} alt="" className='w-[300px] mx-2 md:absolute md:-ml-[600px]' />
+          <img src={gm} alt="" className='w-[250px] mx-2 md:absolute md:-ml-[900px]' />
+          <img src={ln} alt="" className='w-[250px] mx-2 md:absolute md:-ml-[600px]' />
           <img src={bg} alt="" className='hidden md:block absolute w-[500px]' /> {/* Show only on larger screens */}
-          <img src={x} alt="" className='w-[300px] mx-2 md:absolute md:ml-[600px]' />
-          <img src={yt} alt="" className='w-[300px] mx-2 md:absolute md:ml-[900px]' />
-          <img src={fb} alt="" className='w-[300px] mx-2 md:absolute md:ml-[1200px]' />
+          <img src={x} alt="" className='w-[250px] mx-2 md:absolute md:ml-[600px]' />
+          <img src={yt} alt="" className='w-[250px] mx-2 md:absolute md:ml-[900px]' />
+          <img src={fb} alt="" className='w-[250px] mx-2 md:absolute md:ml-[1200px]' />
         </div>
 
         <div>
