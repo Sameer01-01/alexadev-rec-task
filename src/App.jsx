@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Domain from './components/Domain'
 import Carousel from './components/Carousel'
+import Socials from './components/Socials'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <About/>
     <Domain/>
     <Carousel/>
+    <Socials/>
     </>
   )
 }
